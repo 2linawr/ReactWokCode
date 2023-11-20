@@ -1,0 +1,167 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url(https://fonts.google.com/specimen/Montserrat); 
+}
+
+.MainTwoPages{
+    position: relative;
+    width: 975px;
+    height: 589px;
+    border-left: 1px solid #DEDEDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.textTwoPages{
+    display: block;
+    width: 397px;
+    height: 17px;
+    color:#76787D;
+    text-align: left;
+    font-family:'Montserrat';
+    font-weight:400;
+    font-size:14px;
+    line-height:17.07px;
+}
+.infomation_2{
+    display: flex;
+    flex-direction: column;
+    margin-left:61px;
+}
+
+.email{
+    color: #333;
+
+font-family: 'Montserrat';
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+}
+
+.textinfomation_1_2{
+    display: block;
+
+
+    color: #333;
+
+font-family: 'Montserrat';
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.textinfomation_2_2{
+    margin-top:10px;
+    color: #76787D;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.textinfomation_3_2{
+    margin-top:20px;
+    color: #333;
+
+font-family: 'Montserrat';
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.textinfomation_4_2{
+    margin-top:25px;
+    color: #76787D;
+    word-wrap: break-word;
+    width: 439px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blockprofile_2{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left:21px;
+    display: flex;
+    flex-direction: row;
+}
+.logoProfile_2{
+    width: 424px;
+    height: 286px;
+background-image: url('../../assets/images/Rectangle_4.png');
+background-size: cover;
+background-position: center center;
+}
+
+
+/* spinner */
+
+@-moz-keyframes spinner-loader_2 {
+    0% {
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -moz-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spinner-loader_2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinner-loader_2 {
+    0% {
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .MainSpinner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 50%;
+    transform: translate(-50%,-50%);
+  }
+  /* :not(:required) hides this rule from IE9 and below */
+  .spinner-loader_2:not(:required) {
+    -moz-animation: spinner-loader 1500ms infinite linear;
+    -webkit-animation: spinner-loader 1500ms infinite linear;
+    animation: spinner-loader 1500ms infinite linear;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) 0 1.5em 0 0, rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) -1.5em 0 0 0, rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+    -webkit-box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) 0 1.5em 0 0, rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) -1.5em 0 0 0, rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) 0 1.5em 0 0, rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, rgba(0, 0, 51, 0.3) -1.5em 0 0 0, rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+    display: inline-block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin: 1.5em;
+    overflow: hidden;
+    text-indent: 100%;
+    position: absolute;
+    margin:50%;
+    transform: translate(-50%,-50%);
+  }
